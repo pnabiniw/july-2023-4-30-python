@@ -1,0 +1,28 @@
+1. git config --global user.name <your-username>
+   => Configures the git global username in local (your system or laptop)
+
+2. git config --global user.email <your-email>
+    => Configures the git global email in local (your system or laptop)
+
+The above commands are only one time for a local system.
+
+3. git config --global user.name
+4. git config --global user.email
+
+5. git init
+    => initializes a repository in the local
+    => Should not be used multiple times in a same project
+
+# .gitignore
+    => If we do not intend to upload any file or folder from the local repo to the remote repo, then
+    such files and folders name are kept (name mention) in .gitignore file.
+    => git ignore file should be named exactly ".gitignore"
+
+6. git status
+    => Shows the current status of the local repo i.e any changes that need to be added, committed,
+    pushed or pulled
+
+7. git add .
+    => Adds all the changes to the git. This is done exactly before committing the code.
+
+8. git commit -m "<commit-message>"
