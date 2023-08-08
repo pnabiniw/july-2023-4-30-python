@@ -26,3 +26,22 @@ The above commands are only one time for a local system.
     => Adds all the changes to the git. This is done exactly before committing the code.
 
 8. git commit -m "<commit-message>"
+
+9. git branch
+    => shows all the branches and highlights the current branch
+
+10. git branch -M main
+    => Makes "main" branch as the root branch
+
+11. git remote add origin <ssh-link>
+    => adds a remote with name 'origin' in the local repo
+
+12. git push -u origin main
+
+    git push => uploads your code to github
+    -u => this tracks your local branch upstream with remote
+    origin => alias name for remote (github)
+    main => Remote "main" branch
+
+  The significance of -u (tracking the upstream) is that we can write "git push" only from next time
+  onward. Otherwise, we should write "git push origin main" everytime.
