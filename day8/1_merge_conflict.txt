@@ -1,0 +1,7 @@
+If a code written in one file of a project in one branch collides with a
+code written in the same file in different branch during the merging process
+then merge conflict arises.
+
+a = 1
+b = 2
+print(a + b)
