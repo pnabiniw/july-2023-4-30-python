@@ -10,5 +10,3 @@ else:
 
 while True:
     print("Hello")
-
-
