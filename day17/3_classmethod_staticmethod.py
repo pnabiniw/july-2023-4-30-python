@@ -27,5 +27,3 @@ print(s2.age)  # 31
 print(s2.institution_name())  # Broadway
 
 # Here "from_birth_year" method is a class method. And it is also sometimes termed as a "factory method"
-
-
