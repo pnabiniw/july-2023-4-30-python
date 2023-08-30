@@ -1,0 +1,3 @@
+Hello World
+I'm Learning Python
+Python is a high level language
